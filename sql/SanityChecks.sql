@@ -1,8 +1,4 @@
-/* =========================================================
-   PROJECT: Monday Coffee – Sanity Checks
-   PURPOSE: Validate data quality after initial load
-   AUTHOR: You
-   ========================================================= */
+-- Sanity checks
 
 USE MondayCoffee;
 GO
@@ -174,9 +170,4 @@ GROUP BY p.product_name
 ORDER BY sales_count DESC;
 GO
 
-/* ---------------------------------------------------------
-   END OF SANITY CHECKS
-   If all checks pass:
-   - Dataset is analysis-ready
-   - Safe to proceed with joins & window functions
-   --------------------------------------------------------- */
+-- END OF SANITY CHECKS
